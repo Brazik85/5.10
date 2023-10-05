@@ -1,0 +1,175 @@
+body {
+  /* Цвет фона */
+  background-color: #3d3939;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  /* Наследовать цвет текста у родителя */
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  /* Внешний отступ */
+  margin: 0;
+  /* Внутренний отступ */
+  padding: 0;
+}
+
+ul > li {
+  /* Убрать маркеры у маркированного списка */
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100%;
+}
+.container {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 0px 40px;
+}
+/* header */
+
+.logo {
+  /* Убрать подчеркивание у текста */
+  text-decoration: none;
+  display: inline-block;
+}
+
+.logo__img {
+  /* Ширина */
+  width: 30px;
+  /* Высота */
+  height: 30px;
+  margin-right: 8px;
+}
+
+.logo__title {
+  /* Все буквы в верхнем регистре */
+  text-transform: uppercase;
+  font-size: 16px;
+  /* Цвет текста */
+  color: #fff;
+  color: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 120%;
+  word-wrap: break-word;
+}
+
+.nav {
+}
+
+.nav__list {
+  color: #fff;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.header .nav__list {
+  background-color: #404f59;
+  /* Скругление углов */
+  border-radius: 0px 0px 10px 10px;
+  /* Спрятать всё выходит за пределы углов */
+  overflow: hidden;
+  padding: 20px 40px 20px 40px;
+}
+
+.nav__link {
+  transition: color 0.3s;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.nav__link:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.nav__item {
+  display: inline-block;
+}
+
+.phone {
+}
+
+.phone__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.phone__link {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.phone__link span {
+  color: #fff;
+}
+
+/* HERO */
+.hero {
+  border-bottom: 50px solid #1e92e7;
+  background-color: #ffffff;
+  padding-top: 133px;
+}
+.hero__container {
+  height: 100%;
+}
+
+.hero__contant {
+  width: 602px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 92px;
+}
+.address {
+  font-style: normal;
+  margin-bottom: 35px;
+}
+.address__icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.title {
+}
+.hero__title {
+}
+.hero__btns {
+}
+.btn {
+}
+.hero__btn {
+}
+.hero__img-wrap {
+  display: inline-block;
+}
